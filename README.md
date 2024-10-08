@@ -44,35 +44,23 @@ application detailed down description here
 2. [ ]  Access and Permission Control System
 3. [ ]  Notification Alerts and POP-ups
 
-# Update 1 (0.1)
-
-## Requirements
-
-Please check the detailed down requirements here wrt iterations
-
-### Functional
-
-1. [ ]  Login
-2. [ ]  Signup
-3. [ ]  Dashboard
-
-### Non-Functional
-
-1. Security
-2. Scalability
-3. Optimization
-
 ---
 
-# EXTRA
+# HOW TO RUN
 
-## How to run locally
+## install
 
+```bash
+git clone git@github.com:IkramKhan-DevOps/cleaning-services.git
+cd cleaning-services
 ```
-install python > 3.8
 
-cd project_directory
+## initialize and run
+
+```bash
 pip install -r requirements.txt
+python manage.py makemigrations core users whisper
+python manage.py migrate
 py manage.py runserver
 ```
 

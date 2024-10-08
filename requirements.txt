@@ -3,6 +3,8 @@ Faker
 pillow
 markdown
 python-dateutil
+pytz
+DateTime
 
 django
 django-environ
@@ -10,13 +12,20 @@ django-filter
 django-allauth
 django-resized
 python-decouple
-django-ckeditor
 django-crispy-forms
-
 djangorestframework
-djangorestframework-jwt
 dj-rest-auth
-django-rest-swagger
-drf_yasg
+requests
 
+crispy-bootstrap5
 django-browser-reload
+drf-yasg
+django-phonenumber-field[phonenumbers]
+
+PyJWT
+cryptography
+paramiko
+
+mailchimp_transactional
+django-notifications-hq
+fido2
